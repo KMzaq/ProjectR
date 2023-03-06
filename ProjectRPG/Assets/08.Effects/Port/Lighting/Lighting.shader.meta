@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 545026971a28ce944813fa40dfbb048e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _FX_Thunder: {fileID: 2800000, guid: 92b83041a6f0a754db532d8a88e5d512, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

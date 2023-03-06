@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 991d76105d847934993db22f2664bdfa
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_Flare_02: {fileID: 2800000, guid: ebb873feeeff7cf4c8094db094c3b1aa, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

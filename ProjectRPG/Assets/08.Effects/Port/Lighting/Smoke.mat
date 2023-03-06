@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Smoke
+  m_Shader: {fileID: 4800000, guid: db864c3ffa6bc594abac993fceba7f70, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TX_Smoke:
+        m_Texture: {fileID: 2800000, guid: bb259f4aa4938ee4bbfae9ed7ab2258d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 8e84dbcdc4fb83e4583958f01ce815d7, type: 3}
+        m_Scale: {x: 0.7, y: 0.7}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Depth_Dis: 0.22
+    - _Dissolve: 0
+    - _Dissolve_Preview: 1
+    - _Glow_Dissolve: -1
+    - _Keyword0: 1
+    - _Main_Pow: 1
+    - _Main_Str: 1.3
+    - _Opa_Pow: 0.4
+    - __dirty: 0
+    m_Colors:
+    - _ColorA: {r: 0.068139486, g: 0, b: 0.1981132, a: 1}
+    - _Edge_Color: {r: 0.8, g: 0.7372549, b: 4, a: 1}
+    - _Main_Color: {r: 0.7634875, g: 0.6745283, b: 1, a: 1}

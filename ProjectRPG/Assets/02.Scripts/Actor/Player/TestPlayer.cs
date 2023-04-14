@@ -6,7 +6,7 @@ public class TestPlayer : MonoBehaviour
 {
     Animator mAnimator;
 
-    public float speed;
+    public float speed = 1;
 
     float hAxis;
     float vAxis;
@@ -15,7 +15,7 @@ public class TestPlayer : MonoBehaviour
 
     void Start()
     {
-        mAnimator = GetComponent<Animator>();
+        mAnimator = GetComponentInChildren<Animator>();
     }
 
 

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Flare_Glow
-  m_Shader: {fileID: 4800000, guid: e8a762d09899cb840a522e0dd4632993, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0c63c732196b7df4c90bd21ce2b030f2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0

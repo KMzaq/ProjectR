@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03ad56093ac23ac4898aebc8a770304c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TextureSample0: {fileID: 2800000, guid: 17e1367cc70dc7f4cae9c9703e0f3d01, type: 3}
+  - _Ramp_Tex: {fileID: 2800000, guid: c999e1a476be16b4a842a7c1e4fa3633, type: 3}
+  - _Flow_Tex: {fileID: 2800000, guid: b86253915afe45144af3b52c2c8e36a0, type: 3}
+  - _Flow_Tex_02: {fileID: 2800000, guid: b86253915afe45144af3b52c2c8e36a0, type: 3}
+  - _T_Center_Gra_02: {fileID: 2800000, guid: accadee74e38a2441800412ab3d8897a, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

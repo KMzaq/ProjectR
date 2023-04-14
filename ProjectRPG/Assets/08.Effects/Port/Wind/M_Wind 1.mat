@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Wind 1
+  m_Shader: {fileID: 4800000, guid: e9a1924b87646e74387b19676c6d7469, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve_Tex:
+        m_Texture: {fileID: 2800000, guid: 8e84dbcdc4fb83e4583958f01ce815d7, type: 3}
+        m_Scale: {x: 3, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _Flow_Tex:
+        m_Texture: {fileID: 2800000, guid: be16ed68839bead46a05797c841163f4, type: 3}
+        m_Scale: {x: 5, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _T_Gra_04:
+        m_Texture: {fileID: 2800000, guid: a60748d5292fab94bbeb5406047d2a37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Ramp_01:
+        m_Texture: {fileID: 2800000, guid: a7398640863357f4da18f97c871cdcf1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.9}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Dissolve_Step: 0
+    - _Dissolve_US: 0
+    - _Dissolve_VS: 0
+    - _Flow_Str: 0.5
+    - _Flow_US: 0
+    - _Flow_VS: 0
+    - _Main_Pow: 5
+    - _Main_Str: 1
+    - __dirty: 0
+    m_Colors:
+    - _Main_Color: {r: 0.6597539, g: 0.6597539, b: 0.6597539, a: 1}

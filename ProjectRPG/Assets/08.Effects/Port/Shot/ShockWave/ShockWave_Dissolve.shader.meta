@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ecc88dc7152bc8647aa9f65ac22b3e72
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_Hit_01: {fileID: 2800000, guid: 84899f579dc20f14a9989612843b3b7d, type: 3}
+  - _T_Aura_01: {fileID: 2800000, guid: 8e84dbcdc4fb83e4583958f01ce815d7, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

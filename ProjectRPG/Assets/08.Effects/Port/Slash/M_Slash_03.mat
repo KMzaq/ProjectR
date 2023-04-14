@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Dissolve_Tex:
-        m_Texture: {fileID: 2800000, guid: 8d21b35fab1359d4aa689ddf302e1b01, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e84dbcdc4fb83e4583958f01ce815d7, type: 3}
         m_Scale: {x: 1, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _FX_Slash_Edge:
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TX_Slash_04:
-        m_Texture: {fileID: 2800000, guid: 563516e61450b6a43b419d23907d22ba, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _T_Center_Gra_05:
@@ -62,4 +62,4 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Edge_Color: {r: 4.4401197, g: 4.5215898, b: 7.780393, a: 1}
-    - _Main_Color: {r: 0.4452207, g: 0.45484978, b: 0.8207547, a: 1}
+    - _Main_Color: {r: 0.81960785, g: 0.53539, b: 0.44705883, a: 1}

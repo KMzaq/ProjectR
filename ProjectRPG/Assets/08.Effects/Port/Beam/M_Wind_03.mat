@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Wind_03
+  m_Shader: {fileID: 4800000, guid: 8ffcf9f888bbebc4d8501c4b9da441c3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _T_Aura_01:
+        m_Texture: {fileID: 2800000, guid: 003ce01ee36715043948861b830b0ff3, type: 3}
+        m_Scale: {x: 2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _T_Gra_04:
+        m_Texture: {fileID: 2800000, guid: a60748d5292fab94bbeb5406047d2a37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Line_01A:
+        m_Texture: {fileID: 2800000, guid: 278aafb4c57e7c34398c466a126f6375, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Dissolve_Step: 0
+    - _Main_Pow: 1
+    - _Main_Str: 1
+    - __dirty: 0
+    m_Colors:
+    - _Main_Color: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}

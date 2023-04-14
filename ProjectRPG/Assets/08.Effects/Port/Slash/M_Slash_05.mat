@@ -62,4 +62,4 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Edge_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Color: {r: 0, g: 0, b: 0.20392157, a: 1}
+    - _Main_Color: {r: 0.16981131, g: 0, b: 0, a: 1}

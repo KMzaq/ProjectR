@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Dissolve_Tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8d21b35fab1359d4aa689ddf302e1b01, type: 3}
         m_Scale: {x: 1, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _FX_Slash_Edge:
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _T_Trail_04:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d47455e648ffa3e43a8aa5c7fee52cb4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex4coord2:

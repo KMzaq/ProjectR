@@ -210,7 +210,7 @@ Material:
     - _WindTrunkPosition: 2
     - _WindTrunkPosition1: 8
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.6163509, g: 1, b: 0, a: 0}

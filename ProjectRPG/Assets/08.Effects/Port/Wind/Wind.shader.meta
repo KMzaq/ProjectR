@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e9a1924b87646e74387b19676c6d7469
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_Ramp_01: {fileID: 2800000, guid: c999e1a476be16b4a842a7c1e4fa3633, type: 3}
+  - _Flow_Tex: {fileID: 2800000, guid: 45e2f27a139a6df4296246a771284cab, type: 3}
+  - _Dissolve_Tex: {fileID: 2800000, guid: bfb3234fe1c0b0844918b83e24a1f28d, type: 3}
+  - _T_Gra_04: {fileID: 2800000, guid: 1109c9e56d0361645bf97b74fd820382, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

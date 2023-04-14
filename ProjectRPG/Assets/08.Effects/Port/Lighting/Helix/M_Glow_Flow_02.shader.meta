@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 216a16c6df73cbe4090f2444aacffc7c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Main_Tex: {fileID: 2800000, guid: 6b1f2bbdeee94be4ab6ccc893baca05a, type: 3}
+  - _Flow_Tex: {fileID: 2800000, guid: 45e2f27a139a6df4296246a771284cab, type: 3}
+  - _T_Center_Gra_05: {fileID: 2800000, guid: a60748d5292fab94bbeb5406047d2a37, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

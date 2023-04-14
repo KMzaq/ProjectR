@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Port_Shot_ShockWave_Disslove
+  m_Shader: {fileID: 4800000, guid: ecc88dc7152bc8647aa9f65ac22b3e72, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _T_Aura_01:
+        m_Texture: {fileID: 2800000, guid: 3228804868252b24dae3850f88b4f1d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Hit_01:
+        m_Texture: {fileID: 2800000, guid: 2bd21bce7e4f78c478b11e393b682d3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - __dirty: 0
+    m_Colors:
+    - _Main_Color: {r: 5.65445, g: 3.39267, b: 7.999999, a: 1}

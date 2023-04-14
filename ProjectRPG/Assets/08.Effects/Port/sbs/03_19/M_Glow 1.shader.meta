@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 114a62391077625428f9168a9a652312
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TX_Glow: {fileID: 2800000, guid: 4378023a8911e5d4f930500efb2a2c42, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

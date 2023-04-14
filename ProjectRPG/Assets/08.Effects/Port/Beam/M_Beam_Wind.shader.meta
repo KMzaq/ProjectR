@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: cdb458987f346d145b3ea105818d5f64
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TX_BeamWind_01: {fileID: 2800000, guid: 0610b923cb35b8147817564f712e7f5f, type: 3}
+  - _T_Aura_01: {fileID: 2800000, guid: 8e84dbcdc4fb83e4583958f01ce815d7, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

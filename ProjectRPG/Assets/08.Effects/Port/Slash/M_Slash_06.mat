@@ -52,7 +52,7 @@ Material:
     - _Edge_Str: 0
     - _Main_Pow: 1
     - _Main_Str: 1
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - _Edge_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Color: {r: 0.7075472, g: 0.62355286, b: 0.6107601, a: 1}
+    - _Main_Color: {r: 1, g: 0.8637972, b: 0.8443396, a: 1}

@@ -11,7 +11,7 @@ public class Player : Actor
 
     [SerializeField] float speed = 1;
 
-    Vector3 lookDir = Vector3.zero;
+    bool isMove, isRun = false;
 
     void Start()
     {
@@ -24,12 +24,13 @@ public class Player : Actor
 
     private void Update()
     {
-        //if(this.transform.forward.x != lookDir.x || this.transform.forward.z != lookDir.z)
-        //{
-        //    transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(lookDir), Time.deltaTime * 10);
-        //    Debug.Log(this.transform.forward + " / " + lookDir);
-        //}
+        isMove = false;
+        isRun = false;
+
+        mInputController.InputUpdate();
+        AnimUpdate();
     }
+
 
 
     void Move(Vector3 _dir, bool _isRun)
@@ -37,24 +38,23 @@ public class Player : Actor
         Vector3 moveDir = playerCamera.transform.forward * _dir.z + playerCamera.transform.right * _dir.x; 
         moveDir.y = 0;
 
-        lookDir = moveDir;
-
         transform.position += moveDir * (Input.GetKey(KeyCode.LeftShift) ? speed * 3 : speed) * Time.deltaTime;
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(moveDir), Time.deltaTime * 10);
 
-        mAnimator.SetBool("IsMove", true);
-        mAnimator.SetBool("IsRun", _isRun);
-        //mAnimator.SetFloat("DirX", _dir.x);
-        //mAnimator.SetFloat("DirZ", _dir.z);
+        isMove = true;
+        isRun = _isRun;
     }
 
 
     void Attack(int _keyState)
     {
-
-        Debug.Log(_keyState);
-        mAnimator.SetBool("IsAttack", true);
+        if(_keyState == 0)
+            mAnimator.SetTrigger("OnAttack");
     }
 
-    
+    void AnimUpdate()
+    {
+        mAnimator.SetBool("IsMove", isMove);
+        mAnimator.SetBool("IsRun", isRun);
+    }
 }

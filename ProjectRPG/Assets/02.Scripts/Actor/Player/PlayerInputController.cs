@@ -30,12 +30,10 @@ public class PlayerInputController : MonoBehaviour
         
     }
 
-    void Update()
+    public void InputUpdate()
     {
         CheckInputMove();
-        CheckInputAction(keyAttack, actionAttack);
-
-        
+        CheckInputAction(keyAttack, actionAttack); 
     }
 
     void CheckInputMove()
